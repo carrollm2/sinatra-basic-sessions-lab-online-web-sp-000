@@ -11,6 +11,7 @@ class App < Sinatra::Base
     session["item"] = "soap"
     @session = session
 
+    binding.pry
     erb :index
   end
 
