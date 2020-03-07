@@ -10,7 +10,7 @@ class App < Sinatra::Base
   get '/' do
     session["item"] = params["item"]
     @session = session
-    binding.pry
+
     erb :index
   end
 
