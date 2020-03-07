@@ -8,7 +8,7 @@ class App < Sinatra::Base
   end
 
   get '/' do
-    session["item"] = params["item"]
+    # session["item"] = params["item"]
     @session = session
 
     binding.pry
